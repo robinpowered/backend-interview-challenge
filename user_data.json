@@ -1,0 +1,200 @@
+[
+    {
+        "user_id": 1,
+        "time_zone": "UTC",
+        "working_hours": {
+            "start": "09:00",
+            "end": "17:00"
+        },
+        "events": [
+            {
+                "id": 2,
+                "title": "Meeting B",
+                "from": "2019-01-01T09:00:00+0000",
+                "to": "2019-01-01T10:00:00+0000"
+            },
+            {
+                "id": 4,
+                "title": "Meeting D",
+                "from": "2019-01-01T11:00:00+0000",
+                "to": "2019-01-01T12:00:00+0000"
+            },
+            {
+                "id": 6,
+                "title": "Meeting F",
+                "from": "2019-01-01T12:00:00+0000",
+                "to": "2019-01-01T12:45:00+0000"
+            },
+            {
+                "id": 8,
+                "title": "Meeting H",
+                "from": "2019-01-01T14:00:00+0000",
+                "to": "2019-01-01T15:30:00+0000"
+            }
+        ]
+    },
+    {
+        "user_id": 2,
+        "time_zone": "UTC",
+        "working_hours": {
+            "start": "09:00",
+            "end": "17:00"
+        },
+        "events": [
+            {
+                "id": 1,
+                "title": "Meeting A",
+                "start": "2019-01-01T09:00:00+00:00",
+                "end": "2019-01-01T09:45:00+00:00"
+            },
+            {
+                "id": 3,
+                "title": "Meeting C",
+                "start": "2019-01-01T10:00:00+00:00",
+                "end": "2019-01-01T10:15:00+00:00"
+            },
+            {
+                "id": 5,
+                "title": "Meeting E",
+                "start": "2019-01-01T11:00:00+00:00",
+                "end": "2019-01-01T13:45:00+00:00"
+            },
+            {
+                "id": 7,
+                "title": "Meeting G",
+                "start": "2019-01-01T14:00:00+00:00",
+                "end": "2019-01-01T14:30:00+00:00"
+            }
+        ]
+    },
+    {
+        "user_id": 3,
+        "time_zone": "UTC",
+        "working_hours": {
+            "start": "09:00",
+            "end": "17:00"
+        },
+        "events": [
+            {
+                "id": 0,
+                "title": "Meeting Z",
+                "start": "2019-01-01T09:00:00+00:00",
+                "end": "2019-01-01T09:45:00+00:00"
+            },
+            {
+                "id": 4,
+                "title": "Meeting D",
+                "from": "2019-01-01T11:00:00+0000",
+                "to": "2019-01-01T12:00:00+0000"
+            },
+            {
+                "id": 6,
+                "title": "Meeting F",
+                "from": "2019-01-01T12:00:00+0000",
+                "to": "2019-01-01T12:45:00+0000"
+            },
+            {
+                "id": 9,
+                "title": "Meeting I",
+                "start": "2019-01-01T15:30:00+00:00",
+                "end": "2019-01-01T16:30:00+00:00"
+            }
+        ]
+    }
+    {
+        "user_id": 1,
+        "time_zone": "UTC",
+        "working_hours": {
+            "start": "09:00",
+            "end": "17:00"
+        },
+        "events": [
+            {
+                "id": 1,
+                "title": "Lunch",
+                "start": "2019-01-02T12:00:00+00:00",
+                "end": "2019-01-02T13:00+00:00"
+            }
+        ]
+    },
+    {
+        "user_id": 2,
+        "time_zone": "UTC",
+        "working_hours": {
+            "start": "07:00",
+            "end": "15:00"
+        },
+        "events": [
+            {
+                "id": 2,
+                "title": "Brunch",
+                "start": "2019-01-02T11:00:00+00:00",
+                "end": "2019-01-02T12:00:00+00:00"
+            }
+        ]
+    },
+    {
+        "user_id": 3,
+        "time_zone": "UTC",
+        "working_hours": {
+            "start": "11:00",
+            "end": "07:00"
+        },
+        "events": [
+            {
+                "id": 3,
+                "title": "Dunch",
+                "start": "2019-01-02T14:00:00+00:00",
+                "end": "2019-01-02T15:00+00:00"
+            }
+        ]
+    },
+    {
+        "user_id": 1,
+        "time_zone": "UTC",
+        "working_hours": {
+            "start": "09:00",
+            "end": "17:00"
+        },
+        "events": [
+            {
+                "id": 1,
+                "title": "All Day Meeting",
+                "from": "2019-01-03T00:00:00+0000",
+                "to": "2019-01-04T00:00:00+0000"
+            }
+        ]
+    },
+    {
+        "user_id": 2,
+        "time_zone": "UTC",
+        "working_hours": {
+            "start": "00:00",
+            "end": "12:00"
+        },
+        "events": [
+            {
+                "id": 2,
+                "title": "Half Day Meeting (AM)",
+                "start": "2019-01-03T00:00:00+00:00",
+                "end": "2019-01-03T12:00:00+00:00"
+            }
+        ]
+    },
+    {
+        "user_id": 3,
+        "time_zone": "UTC",
+        "working_hours": {
+            "start": "00:00",
+            "end": "12:00"
+        },
+        "events": [
+            {
+                "id": 3,
+                "title": "Half Day Meeting (PM)",
+                "start": "2019-01-03T12:00:00+00:00",
+                "end": "2019-01-04T00:00:00+00:00"
+            }
+        ]
+    }
+]
