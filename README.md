@@ -2,17 +2,19 @@
 
 Welcome!
 
-Here you will find a set of problems to solve when interviewing with Robin. These problems represent real-world scenarios you can expect to encounter while working at Robin.
+Here you will find a set of problems to solve when interviewing with the Robin backend team. These problems represent real-world scenarios you can expect to encounter while working at Robin.
 
 We do not expect you to spend more than 1 hour on each challenge, and at most 4 hours for all challenges.
 
 ## Getting Started
 
-You can code in any language you're comfortable in. We've provided a few toy projects to get you started in Java, PHP, and Node. Each repository will have its own README that explains how to build/run the project. Feel free to modify anything within the projects or start from scratch. Using our projects is not required. If you decide to create your own project, the user data is found in `user_data.json`; otherwise, the data is baked into the projects that we've provided. This represents the json response of an external API that you would call to get user data.
+We've provided a few example projects to get you started in Java, PHP, and NodeJS. Using our projects is not a requirement but it may help you avoid some framework bootstrapping and environment setup. Each repository has its own README that explains how to build/run the project. Feel free to modify anything within the projects or start from scratch.
+
+If you decide to create your own project, the user data is found in `user_data.json`; otherwise, the data is baked into the projects that we've provided.
 
 ## Challenges
 
-Each challenge builds off the previous one and they should be solved in sequential order. Solve as many challenges as you see fit. If you can't complete a challenge in the allotted time, don't worry about it. We recognize that you have other obligations and can't spend all day completing our challenges.
+Each challenge builds off the previous one so you may find it easier to solve in sequential order. Solve as many challenges as you have time for. If you can't complete a challenge in the allotted time, don't worry about it. We recognize that you may have other obligations throughout the day and don't expect you to reserve more time for the project.
 
 ### Challenge 1
 
@@ -22,7 +24,7 @@ Find times where all users could meet.
 
 Find times where all users could meet within their working hours.
 
-### Challenge 4
+### Challenge 3
 
 Find times where users could potentially meet within working hours and order the results by number of users who can attend.
 
