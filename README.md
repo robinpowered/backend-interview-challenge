@@ -28,7 +28,7 @@ Find times where all users could meet within their working hours.
 
 Find times where users could potentially meet within working hours and order the results by number of users who can attend.
 
-### Expected Response
+### Example Response
 
 ```json
 {
