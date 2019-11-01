@@ -18,7 +18,7 @@ You will be building a json REST api. Each challenge builds off the previous one
 
 ### Challenge 1
 
-Find times where all users could meet.
+Find times where all users could meet, not including working hours.
 
 ### Challenge 2
 
@@ -28,20 +28,9 @@ Find times where all users could meet within their working hours.
 
 Find times where users could potentially meet within working hours and order the results by number of users who can attend.
 
-### Example Response
+### Response
 
-```json
-  [
-  {
-    "start": "2019-01-01T09:00:00+0000",
-    "end": "2019-01-01T09:00:00+0000",
-    "available_users": 2
-  }
-  ...
-]
-```
-
-Formatting is not particularly important. `available_users` is the number of users that can meet within that time range.
+Formatting is not particularly important. You should return the number of `available_users` in the body and the time frame that the users are available for.
 
 ### User Data
 
