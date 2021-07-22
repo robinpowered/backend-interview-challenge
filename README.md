@@ -73,8 +73,11 @@ The user data is structured like this:
 ```
 
 `user_id` is the user's id
+
 `time_zone` is the user's IANA timezone
+
 `working_hours` are the hours that the user has set that they will be in the office. Usually the working hours of someone in the US are from 9 am - 5 pm, for example.
+
 `events` is a list of the user's events. All datetimes are represented in [ISO 8601 format](<https: //en.wikipedia.org/wiki/ISO_8601>) with a UTC timezone.
 
 ## Submitting
