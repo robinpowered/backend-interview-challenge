@@ -82,6 +82,6 @@ The user data is structured like this:
 
 ## Submitting
 
-Include a README that explains how to run your code, prerequisite installs to run it (if necessary), and what you would have done differently if you had more time. Feel free to update and push directly to this fork.
+Make a fork of this repository to push to. Include a README that explains how to run your code, prerequisite installs to run it (if necessary), and what you would have done differently if you had more time.
 
 During your interview, you'll walk us through your code. We look forward to seeing your solutions!
